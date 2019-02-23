@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vauen.yann.mapper.TSUserInfoMapper">
+  <resultMap id="BaseResultMap" type="com.vauen.yann.model.TSUserInfo">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="token" jdbcType="VARCHAR" property="token" />
+    <result column="invitecode" jdbcType="VARCHAR" property="invitecode" />
+    <result column="rolegrade" jdbcType="VARCHAR" property="rolegrade" />
+    <result column="realname" jdbcType="VARCHAR" property="realname" />
+    <result column="nickname" jdbcType="VARCHAR" property="nickname" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="salt" jdbcType="VARCHAR" property="salt" />
+    <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+    <result column="logintype" jdbcType="VARCHAR" property="logintype" />
+    <result column="isrealname" jdbcType="INTEGER" property="isrealname" />
+    <result column="wechatopenid" jdbcType="VARCHAR" property="wechatopenid" />
+    <result column="wechatunionid" jdbcType="VARCHAR" property="wechatunionid" />
+    <result column="wechatmobile" jdbcType="VARCHAR" property="wechatmobile" />
+    <result column="userphoto" jdbcType="VARCHAR" property="userphoto" />
+    <result column="province" jdbcType="VARCHAR" property="province" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="district" jdbcType="VARCHAR" property="district" />
+    <result column="isenable" jdbcType="INTEGER" property="isenable" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="sex" jdbcType="INTEGER" property="sex" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="lastlogintime" jdbcType="VARCHAR" property="lastlogintime" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+    <result column="createtime" jdbcType="VARCHAR" property="createtime" />
+    <result column="updatetime" jdbcType="VARCHAR" property="updatetime" />
+  </resultMap>
+</mapper>
